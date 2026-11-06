@@ -1,4 +1,4 @@
-# Auditable Human–Agent Teams for Autonomous X-ray Experiments
+# Auditable Human-Agent Teams for Autonomous X-ray Experimentation
 
 **VISION-CC** (Virtual Scientific Companion with Claude Code) uses a team of Claude Code agents to run autonomous experiments (AE). The scientist steers the experiment with evolving goals; a team-lead agent relays their direction to four *cogs* (specialized agents): **op-cog** drives the beamline, **ana-cog** analyses the data, **gpcam-cog** decides where to measure next with gpCAM Bayesian optimization, and **writer-cog** provides the visualization. An **audit-cog** reconstructs offline, who proposed, decided, and corrected what during a campaign.
 
@@ -17,4 +17,4 @@ Read a frame: `frames.load("data/exp2_p07_s44/" + row["frame"], (1679, 1475))` f
 
 More code will follow in this repository.
 
-**Paper:** G. Luthra, R. J. Pandolfi, B. T. Diroll, R. Ronquillo, R. Li, C. B. Murray, M. M. Noack, K. G. Yager, E. H. R. Tsai, *Auditable Human–Agent Teams for Autonomous X-ray Experiments*, arXiv (2026, link to follow). Contact: Esther Tsai (etsai@bnl.gov)
+**Paper:** G. Luthra, R. J. Pandolfi, B. T. Diroll, R. Ronquillo, R. Li, C. B. Murray, M. M. Noack, K. G. Yager, E. H. R. Tsai, *Auditable Human-Agent Teams for Autonomous X-ray Experimentation*, arXiv (2026, link to follow). Contact: Esther Tsai (etsai@bnl.gov)
