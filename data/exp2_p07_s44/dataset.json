@@ -1,0 +1,118 @@
+{
+ "name": "exp2_p07_s44",
+ "built": "",
+ "format": "frames.py: int16, byte-shuffled, xz",
+ "source": {
+  "run": "run007_btd",
+  "seq": "599-714",
+  "ana_log": "ana_log_p07.csv",
+  "isolated_mm": 0.5,
+  "select": 44,
+  "keep_max": "prefactor_p07",
+  "data_dir": "<BEAMLINE_PROFILE>/bluesky/profile_collection/users/2026-2/beamline/<user>/2_btd/saxs/raw",
+  "mask_file": "<RUNS_ROOT>/run007_btd/ana_out/Pilatus2M_CMS_5m-circular-mask.png"
+ },
+ "n_frames": 44,
+ "size_mb": 19.3,
+ "source_size_mb": 435.9,
+ "axes": [
+  "x",
+  "y"
+ ],
+ "motors": {
+  "x": "smx",
+  "y": "smy"
+ },
+ "motor_origin": {
+  "smx": 44.226,
+  "smy": 4.2
+ },
+ "readback_minus_commanded_max_mm": {
+  "smx": 0.01,
+  "smy": 0.01
+ },
+ "box": {
+  "x": [
+   -0.97,
+   -0.66
+  ],
+  "y": [
+   0.8,
+   1.04
+  ]
+ },
+ "spacing_mm": {
+  "median": 0.03,
+  "max": 0.0412
+ },
+ "sample_name": "BTD_169-8b",
+ "detector": {
+  "name": "pilatus2M",
+  "shape_hw": [
+   1679,
+   1475
+  ],
+  "sdd_m": 6.003,
+  "energy_keV": 13.5,
+  "pixel_um": 172.0,
+  "beam_center_xy": [
+   741.9,
+   1080.1
+  ],
+  "suffix": "_saxs.tiff"
+ },
+ "metrics": [
+  "ref_prefactor_p07",
+  "ref_q0_p07",
+  "ref_chi2_p07",
+  "ref_objective"
+ ],
+ "files": {
+  "frames/000600.i16.xz": "4cbfaa09b41619e82f1715ddf09777b1",
+  "frames/000608.i16.xz": "ad8eee8b2927485ba7a459a273c5854b",
+  "frames/000611.i16.xz": "d5085b1d512b03402070200205f071b9",
+  "frames/000622.i16.xz": "813a52d4fc7f1f0b0471d97efd8a3410",
+  "frames/000626.i16.xz": "7449e03cd0bdeca6fdc0755f58c25519",
+  "frames/000634.i16.xz": "3c8631c7a0b16aa50d270441373a91a2",
+  "frames/000646.i16.xz": "ae1995bf2d3a5a3fa30ad415f3bef8f9",
+  "frames/000650.i16.xz": "28041225a54a2cf72f1f387a2fc9bf80",
+  "frames/000651.i16.xz": "bfb8b226ae77db6e30faee9cc760d5ad",
+  "frames/000652.i16.xz": "8e561ff9bd1c806c78024703f0ac6a64",
+  "frames/000653.i16.xz": "a128659abb017067f021e5da34446760",
+  "frames/000654.i16.xz": "f2ea1abe4d486a9fc09cf710e199a7f5",
+  "frames/000655.i16.xz": "79e9311d1e27dcc741a6599e2d9cad7d",
+  "frames/000656.i16.xz": "01174db8dce5a5e43f6a1989781e93cb",
+  "frames/000658.i16.xz": "9288fc4727fdf75111f0d6c9e95e13eb",
+  "frames/000659.i16.xz": "f64cb38beca5b92b4989ca7cf738f022",
+  "frames/000661.i16.xz": "ef33ed0337a48cf0041bc799e4b50911",
+  "frames/000662.i16.xz": "164e605be8f889de533fa66656d7c796",
+  "frames/000663.i16.xz": "6fc99207d8322851ba3d74ea584f3188",
+  "frames/000664.i16.xz": "a6488a57dc122e5f755f596ddad94cee",
+  "frames/000670.i16.xz": "ce08c2ca8cafda2c3a7fb829fecd3ba2",
+  "frames/000673.i16.xz": "2ea711bf22e2353df5bd71cd5139d695",
+  "frames/000676.i16.xz": "69da960e9cfbaa8084e476437e7a484f",
+  "frames/000678.i16.xz": "a5f3159b5ea4f9777675fee8c8767970",
+  "frames/000680.i16.xz": "d9839c4c8e89fd28596b9b0fc01c597a",
+  "frames/000682.i16.xz": "4e657bcc2c0f75abd811cfa64036b037",
+  "frames/000685.i16.xz": "7ccd20862c84c2b7005588dde4736684",
+  "frames/000686.i16.xz": "b2d481cbe9860db3af080c7c162bcda7",
+  "frames/000687.i16.xz": "991f32bf58b6b9bc26eede0b0a578509",
+  "frames/000688.i16.xz": "db674d18899ee382c793fccac6137d1c",
+  "frames/000689.i16.xz": "a5411ce1046325c3cf405b1bdfeed1c5",
+  "frames/000692.i16.xz": "ae9aef4867d1fbf5a0efed0fd833eade",
+  "frames/000693.i16.xz": "17132368fe7b159aa701dd20e51ba796",
+  "frames/000694.i16.xz": "f28128b8dc1281aee3e3c69b4d165c29",
+  "frames/000699.i16.xz": "6ad0e660a8a92d0ef53154610089f2b8",
+  "frames/000700.i16.xz": "625889221db155ed9d302f89e8e2c211",
+  "frames/000701.i16.xz": "bbede813ae528464e81279bd48354d8e",
+  "frames/000704.i16.xz": "88ae2859456fa97779aec0aae4b03e58",
+  "frames/000707.i16.xz": "b893bb7477d9abf3a20f2576ade9ed3a",
+  "frames/000708.i16.xz": "a01662903a1a131c6df1deb04b6f8572",
+  "frames/000710.i16.xz": "acb570fe32f5dcfae6bb8cd0e33f0886",
+  "frames/000711.i16.xz": "362bde9833a46aab1fe1fc445fff76ca",
+  "frames/000713.i16.xz": "ca5b5470feac9c396368ef95b90e5f94",
+  "frames/000714.i16.xz": "a0246a4b4167fd006562182058f3feb2",
+  "index.csv": "5ed96a034e87d9b8829d6d53cdfe6eed",
+  "mask.png": "a7b4c974234c85f91855beae9b8f64a8"
+ }
+}
