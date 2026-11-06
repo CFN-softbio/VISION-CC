@@ -16,3 +16,5 @@ VISION-CC succeeds [VISION](https://github.com/CFN-softbio/VISION), our earlier 
 Read a frame: `frames.load("data/exp2_p07_s44/" + row["frame"], (1679, 1475))` for a row of `index.csv`.
 
 More code will follow in this repository.
+
+**Paper:** G. Luthra, R. J. Pandolfi, B. T. Diroll, R. Ronquillo, R. Li, C. B. Murray, M. M. Noack, K. G. Yager, E. H. R. Tsai, *Auditable Human–Agent Teams for Autonomous X-ray Experiments*, arXiv (2026, link to follow). Contact: Esther Tsai (etsai@bnl.gov)
